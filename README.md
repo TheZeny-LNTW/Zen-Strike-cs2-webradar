@@ -43,7 +43,7 @@ This guide explains how to set up and deploy a CS2 radar system using NGINX with
 
 ---
 
-This section provides a clear overview of your progress and next steps for potential contributors or users of your project. Let me know if you'd like to expand on any point!
+
 ---
 
 ## VPS Setup: NGINX Reverse Proxy with SSL
