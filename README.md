@@ -1,7 +1,3 @@
-Here’s a perfectly formatted **README.md** for your GitHub project, combining all the sections you've provided:
-
----
-
 # CS2 WebRadar with NGINX and SSL Setup
 
 This guide explains how to set up and deploy a CS2 radar system using NGINX with SSL, SSH tunneling, and backend services.
