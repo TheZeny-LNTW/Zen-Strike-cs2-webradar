@@ -3,8 +3,10 @@
 This guide explains how to set up and deploy a CS2 radar system using NGINX with SSL, SSH tunneling, and backend services.
 ## Demo Video
 
-[![Watch the video on YouTube](https://img.youtube.com/vi/AieihkpiDms/maxresdefault.jpg)](https://youtu.be/AieihkpiDms)
 
+![11271-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/3702cb12-04d7-4ae8-8c79-57f9d47ba721)
+![11271-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/c7472d85-564b-4932-8000-c620390813d0)
+![11271-ezgif com-video-to-gif-converter (2)](https://github.com/user-attachments/assets/a8d5ea3c-fe28-4330-b2be-0f2f7fbc52cb)
 
 ---
 
