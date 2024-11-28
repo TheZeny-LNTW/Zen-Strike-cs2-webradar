@@ -1,7 +1,47 @@
 # CS2 WebRadar with NGINX and SSL Setup
 
 This guide explains how to set up and deploy a CS2 radar system using NGINX with SSL, SSH tunneling, and backend services.
-https://zeny.lol/uploads/hack-breach-d8a007.mp4
+## Demo Video
+
+[![Watch the video on YouTube](https://img.youtube.com/vi/AieihkpiDms/maxresdefault.jpg)](https://youtu.be/AieihkpiDms)
+
+
+---
+
+## Features and To-Do List
+
+### ✅ **Added Features**
+1. **Grenade Prediction with Lightning Strike**  
+   - Displays predicted grenade trajectory with a visual lightning effect along the path.
+2. **Player Names on Radar**  
+   - Shows the names of players directly on the radar for better identification.
+3. **Movement Trails**  
+   - Visual trails showing players' recent movement paths for tracking.
+4. **Player Tracing / Free Cam**  
+   - Allows free-camera mode to trace any player's movement and actions in real-time.
+5. **Grenade Trajectory**  
+   - Predicts and displays grenade paths on the radar.
+
+---
+
+### 🚧 **To-Do List**
+1. **Fix Heatmap**  
+   - Improve heatmap functionality to display the most common spots:
+     - **Per Match**: Highlight areas where players frequently gather during the match.  
+     - **Per Player**: Highlight individual players' most visited locations.
+2. **Fix AI Analysis**  
+   - Current AI analysis logic is flawed (produced by AI). Revise and make it more dynamic and intuitive.
+3. **Add Lightning Strike Effect**  
+   - Implement a lightning effect between the killer and the killed player to indicate kills on the radar.
+4. **Refine Grenade Trajectory**  
+   - Add collision detection for grenade trajectories to account for:
+     - Walls
+     - Map boundaries
+     - Other in-game objects
+
+---
+
+This section provides a clear overview of your progress and next steps for potential contributors or users of your project. Let me know if you'd like to expand on any point!
 ---
 
 ## VPS Setup: NGINX Reverse Proxy with SSL
