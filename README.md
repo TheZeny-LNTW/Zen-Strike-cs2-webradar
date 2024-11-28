@@ -1,4 +1,4 @@
-
+### VPS 
 
 ```markdown
 # NGINX Reverse Proxy with SSL Setup
@@ -112,8 +112,35 @@ sudo certbot renew --dry-run
 
 ---
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-```
+Here’s how you can format this step for your **README.md** in a clear and structured way:
 
-This **README.md** is formatted for GitHub and provides a clear guide for setting up the project. Let me know if you need further adjustments!
+---
+
+### Next Step: Create a `.bat` File for SSH Tunneling
+
+You need to create a `.bat` file to establish SSH tunneling between your local machine and your VPS. This ensures that the backend services are accessible via the configured ports on your VPS.
+
+1. **Create the `.bat` File:**
+   - Open a text editor (e.g., Notepad) and paste the following content:
+     ```bat
+     @echo off
+     ssh -R 0.0.0.0:35174:localhost:5173 -R 0.0.0.0:32006:localhost:22006 yourusername@vpsip -N
+     ```
+   - Replace:
+     - `yourusername` with your VPS username.
+     - `vpsip` with the IP address of your VPS.
+     - `localhost:5173` with the port where your **usermode** runs locally.
+     - `localhost:22006` with the port where your **/cs2_webradar** service runs locally.
+
+2. **Save the File:**
+   - Save the file as `start-tunnel.bat` (or any name you prefer) in a convenient location.
+
+3. **Usage:**
+   - After starting **usermode** and your **webapp**, double-click the `start-tunnel.bat` file to create the SSH tunnel and ofc put ur password for vps nothing should pop up after it meaning that tunneling works.
+
+4. **Keep the SSH Tunnel Open:**
+   - The terminal window for the `.bat` file must remain open for the tunnel to stay active.
+
+---
+
+
