@@ -1,7 +1,7 @@
 # CS2 WebRadar with NGINX and SSL Setup
 
 This guide explains how to set up and deploy a CS2 radar system using NGINX with SSL, SSH tunneling, and backend services.
-
+https://zeny.lol/uploads/hack-breach-d8a007.mp4
 ---
 
 ## VPS Setup: NGINX Reverse Proxy with SSL
