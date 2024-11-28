@@ -1,5 +1,5 @@
 # CS2 WebRadar with NGINX and SSL Setup
-
+# Need help? [Discord](https://discord.gg/b7qK3NStB6)
 This guide explains how to set up and deploy a CS2 radar system using NGINX with SSL, SSH tunneling, and backend services.
 ## Demo Video
 
